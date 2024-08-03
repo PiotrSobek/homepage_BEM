@@ -1,0 +1,19 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: initial;
+}
+
+.body {
+    color:#030303; 
+    background-color: #f0da15;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.body--dark {
+    color:#b0eebb; 
+    background-color: #222;
+}
