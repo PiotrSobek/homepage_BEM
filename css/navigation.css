@@ -1,12 +1,15 @@
 .navigation {
-    /* background-color: none; */  /* left in case of conception change */
-    /* padding: 1px 1px; */  /* left in case of conception change */
-    /* box-shadow: 5px 8px 5px 0px #171C1B;  */  /* left in case of conception change */
+    display: flex;
+    flex-direction: row;
     
+    justify-content: space-between;
+  
+    flex-wrap: wrap;
+   
 }
 
 .navigation__list {
-    list-style-type: none;
+        
 }
     
 .navigation__text {
