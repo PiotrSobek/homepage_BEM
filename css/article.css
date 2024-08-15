@@ -29,23 +29,35 @@
     padding-right: 20px;
     background-color: #003f03;
     box-shadow: 5px 8px 5px 0px #171C1B; 
+    text-align: center;
 }
     
 .article__boxImage {
-    max-width: 450px;
+    max-width: 550px;
     border: 2px;
     border-style: double;
     border-color: #000000;
     border-radius: 5%;
     box-shadow: 5px 8px 5px 0px #171C1B;
+    object-position: right;
 }
        
 .article__boxSubHeader {
     font-size: 30px;
+    text-align: center;
 }
 
 .article__boxParagraph{
     padding-bottom: 10px;
+    text-align: justify ;
+    text-indent: 30px;
+}
+
+.article__boxParagraphDecoration{
+    text-decoration-line: underline;
+    text-decoration-color: gold;
+    text-decoration-style: wavy;
+    text-transform: uppercase;
 }
 
 .article__listItem {
