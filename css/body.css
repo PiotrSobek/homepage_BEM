@@ -3,13 +3,14 @@ html {
 }
 
 *, ::after, ::before {
+    
     box-sizing: initial;
 }
 
 .body {
     color:#030303; 
     background-color: #f0da15;
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
